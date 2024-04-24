@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folkeferie</title>
+   
+    <script src="map.js" defer></script>
+    <script src="gal.js" defer></script>
+    <script src="turn.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+        </style>
+
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <img src="images/logo.svg" alt="" class="logo">
+            <ul class="menu" id="menu">
+                <li>
+                    <a href="#menu" class="menulink">top</a>
+                </li>
+                    <li>
+                    <a href="#info" class="menulink">info</a>
+                    </li>
+                    
+                <li>
+                    <a href="#boligen" class="menulink">boligen</a>
+                </li>
+                    <li>
+                     <a href="#plantegning" class="menulink">plantegning</a>
+                    </li>
+                <li>
+                    <a href="#gallery" class="menulink">billeder</a>
+                </li>
+
+            </ul>
+        </nav>
+        <div class="banner">
+        <img src="images/banner1-mellieha_holiday_centre.jpg" alt="" class="bannerimg">
+            <div class="bannertext">
+        <h1>Mellieha Holiday Centre Udvides</h1>
+        <h2>Nye ferielejligheder på Malta</h2 >
+        </div>
+        </div>
+
+    </header>
+
+    <main>
+        
+        <section class="info" id="info">
+            <h2 class="infoh2">info</h2>
+            <div class="info1">
+            <h3>Den "danske landsby" på Malta</h3>
+            <p>
+                Mellieha Holiday Centre er det ideelle feriested for par, børnefamilier eller flere generationer
+som rejser sammen. Her kan du både trække dig tilbage i uforstyrret privatliv i dit feriehus
+eller være en del af de fælles aktiviteter. Feriebyen har alt til en fantastisk ferie: Stor
+udendørs swimmingpool, babypool, ny børnepool, stor ny legeplads, ny minigolfbane,
+aktiviteter for børn, supermarked, nyrenoverede restauranter, indendørs pool, spa og fitness
+(begrænset adgang for børn under 15 år) multicourt, fodboldbane og meget mere.
+            </p>
+        </div>
+
+            <div class="info2">
+            <h3 class="vision">Hans Munk Hansen's vision</h3>
+
+            <p class="visiontext">Mellieha Holiday Centre er et enestående feriested, og i 40 år har feriebyen sat rammerne og
+                danskernes ferie på Malta. Mellieha Holiday Centre er tegnet af den danske arkitekt Hans
+                Munk Hansen, som har fået landskab og dansk feriekomfort til at spille smukt sammen.
+                Feriecentret ligger naturskønt på det nordlige Malta, kun 300 meter fra sandstrand og tæt på
+                den charmerende og hyggelige by Mellieha. </p>
+            </div>
+            </section>
+                <section class="boligen" id="boligen">
+                <h2 class="boligh2">Boligen </h2>
+
+                <figure class="turntable">
+                    <img class="turn" src="turntable/0001.png" alt="et turntable af huset" id="turn-img">
+                </figure>
+               
+                    <input type="range" name="slider" id="range" min="1" max="52" value="1" class="range">
+            
+                    </section>
+
+
+      
+            
+        
+    
+
+        <section class="plantegning" id="plantegning">
+            <h2 class="planh2">Plantegning</h2>
+
+       
+            <img class="map-img map"  src="images/plan-final.jpg"  usemap="#image-map"  alt="en plan af bygningen">
+
+            <map name="image-map" id="image-map">
+
+                <area data-text="køkken-delen af alrummet: Køkkenet er udstyret med køleskab, komfur, ovn samt mikrobølgeovn. 
+    
+                Desuden er der et spisebord med plads til fire" class="areas" alt="køkken-alrum" title="køkken-alrum" href="#kokken-alrum" coords="907,679,182,1239" shape="rect">
+    
+                <area data-text=" dagligstue-delen af alrummet: Hyggeligt sofahjørne hvor man kan slappe af, her er også det ene af lejlighedens 
+    
+                klimaanlæg." class="areas" alt="dagligstue-alrum" title="dagligstue-alrum" href="#dagligstue-alrum" coords="914,1241,177,1746" shape="rect">
+    
+                <area data-text="Soveværelse: 
+    
+                Lyst soveværelse til to personer med store terrassedøre samt rummelige klædeskabe, 
+    
+                oven på soveværelset er den ugenerede tagterrasse" class="areas" alt="soveværelse" title="soveværelse" href="#soveverelse" coords="910,191,1721,902" shape="rect">
+    
+                <area data-text="Badeværelse: I badeværelset er der et toilet, og stort bad, med to håndvaske." class="areas" alt="badeværelse" title="badeværelse" href="#badeverelse" coords="186,185,900,675" shape="rect">
+    
+            </map>
+         
+        </section>
+
+
+        
+        
+
+        
+           
+
+            <section class="content wrapper" id="gallery">
+
+                <h2 class="billedh2">Billeder</h2>
+
+            <figure class="gallery">
+                <a href="images/kort.png" class="gallery-link gal" > 
+                    <img src="images/kort.png" alt="">
+                </a>
+                <a href="images/luftfoto.jpg" class="gallery-link gal" >
+                    <img src="images/luftfoto.jpg" alt="">
+                </a>
+                <a href="images/view-to-pool-and-moon.jpg" class="gallery-link gal" >
+                    <img src="images/view-to-pool-and-moon.jpg" alt="">
+                </a>
+                <a href="images/view-from-your-bungalows.jpg" class="gallery-link gal" >
+                    <img src="images/view-from-your-bungalows.jpg" alt="">
+                </a>
+                <a href="images/04_mhc_luftfoto.jpg" class="gallery-link gal" >
+                    <img src="images/04_mhc_luftfoto.jpg" alt="">
+                </a>
+                <a href="images/mellieha-holiday-centre.jpg" class="gallery-link gal" >
+                    <img src="images/mellieha-holiday-centre.jpg" alt="">
+                </a>
+                
+            </figure>
+
+        </section>
+
+        
+
+    </main>
+
+    <footer>
+        <div class="ferie">
+        <h2 class="footerh2">FolkeFerie.dk</h2>
+        <ul>
+            <li>
+                <address>Islands Brygge 41, 3 </address>
+            </li>
+
+            <li>
+                <address>2300 København S </address>
+            </li>
+        </ul>
+    </div>
+
+        <div class="group">
+            <h2 class="footerh2">DM Group</h2>
+            <ul>
+                <li>
+                    <address>Pulsen 8 </address>
+                </li>
+
+                <li>
+                    <address>4000 Roskilde </address>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <div class="infobox">
+        <p></p>
+        <button class="close">Luk</button>
+    </div>
+
+    <!--Her kommer container til modal-->
+    <figure class="modal-outer hidden">
+        <img src="" alt="" id="modal-img" class="modal-img">
+        <button id="close">Luk vindue</button>
+    </figure>
+</body>
+</html>

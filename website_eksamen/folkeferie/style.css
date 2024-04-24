@@ -1,0 +1,577 @@
+/*general rules */
+
+html{
+  font-size: 16px;
+  font-family: sans-serif;
+  }
+  
+  *{
+      padding: 0;
+      margin: 0;
+    }
+    
+    img{
+      max-width: 100%;
+    }
+  
+    li{
+      text-decoration: none;
+      list-style-type: none;
+    }
+  
+    main{
+      margin: 7%;
+    }
+  
+  
+    address{
+      font-style: normal;
+      font-size: 0.9em;
+      margin-top: 0.5em;
+    }
+  
+  
+  
+  /* css for image map */
+  
+    .map-image{
+      max-width: none;
+      transform-origin: top left;
+  }
+  
+  .map-container{
+      transform-origin: top left;
+  }
+  
+  .infobox{
+      display: none;
+      position:fixed;
+      top:0;
+      left:0;
+      background: #BADA55;
+      padding:20px;
+      font-size: large;
+  }
+  
+  /* header css */
+  
+    .logo{
+      width: 20%;
+     
+    }
+  
+    nav{
+      display: flex;
+      justify-content: space-between;
+      margin: 1em 
+    }
+  
+    .menu{
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+     
+      
+      
+      
+      
+    }
+  
+    .menulink{
+      font-size: 0.73em;
+      font-weight: bold;
+      color: #e30613;
+      text-decoration: none;
+      margin: 0em 0.5em 0em;
+      text-transform: uppercase;
+      
+     
+      
+    }
+  
+  .banner{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-wrap: wrap;
+  }
+  
+   .bannerimg{
+      background-image: url("images/banner1-mellieha_holiday_centre.jpg");
+      background-repeat: no-repeat, repeat;
+      z-index: -111;
+   }
+  
+    .bannertext{
+      
+  
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px 2px black ;
+    margin-bottom: 1em;
+  
+    position: absolute;
+   
+    
+    }
+  
+    h1{
+      margin-bottom: 0.5em;
+      font-size: 1.7em;
+      font-family: 'Fira Sans', sans-serif;
+      
+    }
+  
+    /* andre regler til bla. sections og tekst */
+
+    #range{
+      width:100%;
+  }
+  
+    h2{
+      text-align: center;
+      font-size: 1.5em;
+      font-family: 'Fira Sans', sans-serif;
+      
+  
+    }
+
+    .turntable{
+      display: flex;
+      justify-content: center;
+    }
+
+   .turn{
+    width: 35em;
+   }
+
+   .range{
+    width: 100%;
+   }
+  
+    h3{
+      font-family: 'Fira Sans', sans-serif;
+      text-align: center;
+      color: #0e2050;
+    }
+  
+  .info{
+      display: flex;
+      flex-direction: column ;
+      text-align: justify;
+  
+  }
+  
+  .infoh2{
+      margin: 2em 0em 0.5em 0em;
+      color: #0e2050;
+  }
+  
+  .boligh2{
+      margin: 2em 0em 0.5em 0em;
+      color: #0e2050;
+  }
+  
+  .planh2{
+      margin: 2em 0em 0.5em 0em;
+      color: #0e2050;
+  }
+  
+  .vision{
+      margin-top: 2em;
+  }
+  
+  /* gallery ting og sager */
+
+  .billedh2{
+    color: #0e2050;
+  }
+  
+  .wrapper{
+  
+   
+      max-width: 30em;
+      margin: 0 auto;
+  
+  }
+  
+  .gal{
+      max-width: 100%;
+      margin-bottom: 1em;
+      cursor: pointer;
+      transition: 0.3s;
+      height: 1em;
+      height: 1em;
+      pointer-events:none;
+  }
+  
+
+  .hidden{
+    display:none;
+  }
+  
+  /* footer styling */
+  
+  footer{
+      background-color:  #0e2050 ;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      text-decoration: none;
+      height: 8em;
+     
+  
+  }
+  
+  .footerh2{
+      font-size: 1.2em;
+  }
+  
+  .ferie{
+      list-style: none;
+      margin: 1em;
+  }
+  
+  .group{
+      text-decoration: none;
+      margin: 1em;
+  }
+  
+  
+  
+  /* til computer */
+
+
+
+  
+  
+  @media screen and (min-width: 700px) {
+  
+  /*general rules */
+  
+  html{
+    font-size: 20px;
+    font-family: sans-serif;
+    }
+    
+    *{
+        padding: 0;
+        margin: 0;
+      }
+      
+      img{
+        max-width: 100%;
+      }
+    
+      li{
+        text-decoration: none;
+        list-style-type: none;
+      }
+    
+      main{
+        margin: 7%;
+      }
+    
+
+      
+    
+      address{
+        font-style: normal;
+        font-size: 0.9em;
+        margin-top: 0.5em;
+      }
+  
+    
+    /* header css */
+    
+      .logo{
+        width: 20%;
+       
+      }
+    
+      nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 1em 
+      }
+    
+      .menu{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        
+      }
+    
+      .menulink{
+        font-size: 0.73em;
+        font-weight: bold;
+        color: #e30613;
+        text-decoration: none;
+        margin: 0em 0.5em 0em;
+        text-transform: uppercase;
+        
+       
+        
+      }
+    
+    .banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 17.4em;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    
+     .bannerimg{
+        background-image: url("images/banner1-mellieha_holiday_centre.jpg");
+        background-repeat: no-repeat, repeat;
+        z-index: -111;
+     }
+    
+      .bannertext{
+        
+    
+      color: #fff;
+      width: 100%;
+      text-align: center;
+      text-shadow: 2px 2px 2px black ;
+      margin-bottom: 1em;
+    
+      position: absolute;
+     
+      
+      }
+
+      .turntable{
+        display: flex;
+        justify-content: center;
+      }
+  
+     .turn{
+      width: 50%;
+     }
+
+      
+
+      .range{
+        max-width: 51%;
+        margin-top: 1em;
+        
+      }
+
+      
+    
+      h1{
+        margin-bottom: 0.5em;
+        font-size: 3em;
+        font-family: 'Fira Sans', sans-serif;
+      }
+    
+      /* andre regler til bla. sections og tekst */
+    
+      h2{
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Fira Sans', sans-serif;
+    
+      }
+    
+      h3{
+        font-family: 'Fira Sans', sans-serif;
+        text-align: center;
+        color: #0e2050;
+      }
+    
+    .info{
+        display: flex;
+        align-items: baseline;
+        text-align: justify;
+        flex-wrap: wrap;
+        
+        flex-direction: row;
+        justify-content: center;
+    
+    }
+  
+    .info1{
+      max-width: 19em;
+      margin: 0em 2em 0em 2em;
+    }
+  
+    .info2{
+      max-width: 19em;
+      margin: 0em 2em 0em 2em;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      color: #0e2050;
+    }
+    
+    .infoh2{
+        margin: 2em 0em 0em 0em;
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .boligh2{
+        margin: 2em 0em 0.5em 0em;
+        color: #0e2050;
+    }
+    
+    .planh2{
+        margin: 2em 0em 0.5em 0em;
+        color: #0e2050;
+    }
+    
+    .vision{
+        margin-top: 2em;
+    }
+    
+  
+    .boligen{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+  
+    .boligimg{
+      width: 36.5em;
+      
+      height: auto;
+    }
+  
+    .map-img{
+
+      max-width: none;
+      width: 50%;
+  
+      transform-origin: top left;
+  
+  }
+
+  #range{
+    width:100%;
+}
+  
+
+  .plantegning{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  
+  
+
+
+
+
+  
+  
+
+  
+  
+    /* gallery */
+  
+    .billedh2{
+      margin-top: 2.5em;
+      color: #0e2050;
+    }
+  
+    .wrapper{
+      max-width: 62.5em;
+      margin: 0 auto;
+  }
+
+  .gal{
+
+    pointer-events:all;
+}
+  
+    .gallery{
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+   
+      align-items: center;
+      justify-items: center;
+      object-fit: cover;
+  }
+  .gallery-link{
+    max-height: 17em;
+      overflow: hidden;
+      width: 20em;
+      height: 11em;
+      margin: 1em;
+  }
+  
+  .modal-outer{
+      width:100vw;
+      height:100vh;
+      position: fixed;
+      background: darkgray;
+      top:0;
+      left:0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.5s;
+  }
+  .modal-img{
+      max-height: 80vh;
+  }
+  
+  #close{
+      position:absolute;
+      top:0.3125em;
+      right:1.875em;
+  }
+  
+  .hidden{
+      width:1vw;
+      height:1vh;
+      top:50%;
+      left:50%;
+      opacity: 0;
+      pointer-events: none;
+  }
+    
+   
+  
+    /* footer styling */
+    
+    footer{
+        background-color:  #0e2050 ;
+        color: #fff;
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+    
+    }
+    
+    .footerh2{
+        font-size: 1.2em;
+    }
+    
+    .ferie{
+        list-style: none;
+        margin: 1em;
+    }
+    
+    .group{
+        text-decoration: none;
+        margin: 1em;
+    }
+    
+  
+  
+  }
